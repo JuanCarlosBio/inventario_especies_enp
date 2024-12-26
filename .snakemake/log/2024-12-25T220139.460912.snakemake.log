@@ -1,6 +1,0 @@
-host: juancarlos-extensa21551g
-Building DAG of jobs...
-MissingInputException in rule targets in file /home/juancarlos/Documents/inventario_especies_enp/Snakefile, line 1:
-Missing input files for rule targets:
-    affected files:
-        html_enp/monumento_natural/C-01_inagua.html
