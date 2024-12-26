@@ -36,5 +36,15 @@ RUN conda info --envs
 # Install additional dependencies (if needed)
 RUN pip install --upgrade pip
 
+# Init conda
+RUN conda init
+RUN source /root/.bashrc
+
+## Running Snakefile
+WORKDIR /app/
+RUN activate inventario_especies_gc
+RUN snakemake -c 1
+
 # Set default command
+#CMD ["/bin/bash"]
 CMD ["/bin/bash"]

@@ -22,7 +22,7 @@ jobs:
       - name: Docker Virtual Environment
         run: |
           docker build -t inventario_especies_gc .
-          docker run --name my_docker_venv -t inventario_especies_gc
+          docker run --name my_docker_venv inventario_especies_gc
           cd /app
           conda init
           source /root/.bashrc
@@ -36,7 +36,7 @@ jobs:
           git config --local user.name "GitHub"
       - name: Commit changes to repository
         run: |
-          git add index.html flora.html invertebrates.html data.html
+          git add index.html
           git commit -m "Actualización semanal completada"
           git push origin main
       - run: echo "🍏 This job's status is ${{ job.status }}."
