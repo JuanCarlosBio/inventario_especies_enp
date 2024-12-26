@@ -30,7 +30,7 @@ jobs:
           git config --local user.name "GitHub"
       - name: Commit changes to repository
         run: |
-          git add index.html
+          git add -A
           git commit -m "Actualización semanal completada"
           git push origin main
       - run: echo "🍏 This job's status is ${{ job.status }}."
