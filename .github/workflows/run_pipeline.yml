@@ -23,12 +23,6 @@ jobs:
         run: |
           docker build -t inventario_especies_gc .
           docker run --name my_docker_venv inventario_especies_gc
-          cd /app
-          conda init
-          source /root/.bashrc
-          conda activate inventario_especies_gc
-          snakemake -c 1
-          exit
           bash shell/copy_files_from_docker.sh
       - name: Configure git on runner
         run: |
