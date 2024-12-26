@@ -31,6 +31,6 @@ jobs:
       - name: Commit changes to repository
         run: |
           git add -A
-          git commit -m "Actualización semanal completada"
+          git commit -m "Actualización completada"
           git push origin main
       - run: echo "🍏 This job's status is ${{ job.status }}."
