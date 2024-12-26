@@ -22,7 +22,7 @@ jobs:
       - name: Docker Virtual Environment
         run: |
           docker build -t inventario_especies_gc .
-          docker run --name my_docker_venv -it inventario_especies_gc
+          docker run --name my_docker_venv -t inventario_especies_gc
           cd /app
           conda init
           source /root/.bashrc
