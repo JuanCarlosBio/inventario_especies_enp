@@ -1,0 +1,43 @@
+host: juancarlos-extensa21551g
+Building DAG of jobs...
+Using shell: /home/juancarlos/miniconda3/envs/inventario_especies_gc/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job            count
+-----------  -------
+fataga             1
+las_cumbres        1
+total              2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:32:03 2024]
+localrule fataga:
+    input: metadata/metadatos_espacios.csv, ENP/paisaje_protegido/C-27_fataga, python/enp_analysis.ipynb
+    output: html_enp/paisaje_protegido/C-27_fataga.html
+    jobid: 0
+    reason: Missing output files: html_enp/paisaje_protegido/C-27_fataga.html
+    resources: tmpdir=/tmp
+
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+[Thu Dec 26 14:32:07 2024]
+Error in rule fataga:
+    jobid: 0
+    input: metadata/metadatos_espacios.csv, ENP/paisaje_protegido/C-27_fataga, python/enp_analysis.ipynb
+    output: html_enp/paisaje_protegido/C-27_fataga.html
+    conda-env: /home/juancarlos/Documents/inventario_especies_enp/.snakemake/conda/d516146e133382adf3a39a33a833aa53_
+    shell:
+        
+        MY_VARIABLE=26 jupyter nbconvert             --to html             --execute             --no-input             python/enp_analysis.ipynb
+        mv python/enp_analysis.html html_enp/paisaje_protegido/C-27_fataga.html
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-26T143203.018692.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

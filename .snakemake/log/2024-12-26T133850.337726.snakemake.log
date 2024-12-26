@@ -1,0 +1,60 @@
+host: juancarlos-extensa21551g
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /home/juancarlos/miniconda3/envs/inventario_especies_gc/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                        count
+-----------------------  -------
+gui_gui                        1
+las_dunas_de_maspalomas        1
+targets                        1
+total                          3
+
+Select jobs to execute...
+Traceback (most recent call last):
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/snakemake/cli.py", line 2156, in args_to_api
+    dag_api.execute_workflow(
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/snakemake/api.py", line 597, in execute_workflow
+    workflow.execute(
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/snakemake/workflow.py", line 1268, in execute
+    raise e
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/snakemake/workflow.py", line 1264, in execute
+    success = self.scheduler.schedule()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/snakemake/scheduler.py", line 282, in schedule
+    run = self.job_selector(needrun)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/snakemake/scheduler.py", line 495, in job_selector
+    return self._job_selector(jobs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/snakemake/scheduler.py", line 627, in job_selector_ilp
+    status = self._solve_ilp(prob, time_limit=10)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/snakemake/scheduler.py", line 676, in _solve_ilp
+    return prob.solve(solver)
+           ^^^^^^^^^^^^^^^^^^
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/pulp/pulp.py", line 1883, in solve
+    status = solver.actualSolve(self, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/pulp/apis/coin_api.py", line 112, in actualSolve
+    return self.solve_CBC(lp, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/home/juancarlos/miniconda3/envs/inventario_especies_gc/lib/python3.12/site-packages/pulp/apis/coin_api.py", line 181, in solve_CBC
+    raise PulpSolverError(
+
+pulp.apis.core.PulpSolverError: Pulp: Error while trying to execute, use msg=True for more detailscbc
+

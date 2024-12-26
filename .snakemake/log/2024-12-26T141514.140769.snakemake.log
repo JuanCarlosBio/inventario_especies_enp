@@ -1,0 +1,117 @@
+host: juancarlos-extensa21551g
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /home/juancarlos/miniconda3/envs/inventario_especies_gc/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                    count
+-------------------  -------
+arinaga                    1
+barranco_guayadeque        1
+riscos_tirajana            1
+roque_aguayro              1
+roque_nublo                1
+targets                    1
+tauro                      1
+total                      7
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:15:15 2024]
+localrule riscos_tirajana:
+    input: metadata/metadatos_espacios.csv, ENP/monumento_natural/C-20_riscos_tirajana, python/enp_analysis.ipynb
+    output: html_enp/monumento_natural/C-20_riscos_tirajana.html
+    jobid: 20
+    reason: Missing output files: html_enp/monumento_natural/C-20_riscos_tirajana.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:15:19 2024]
+Finished job 20.
+1 of 7 steps (14%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:15:19 2024]
+localrule roque_aguayro:
+    input: metadata/metadatos_espacios.csv, ENP/monumento_natural/C-16_roque_aguayro, python/enp_analysis.ipynb
+    output: html_enp/monumento_natural/C-16_roque_aguayro.html
+    jobid: 16
+    reason: Missing output files: html_enp/monumento_natural/C-16_roque_aguayro.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:15:22 2024]
+Finished job 16.
+2 of 7 steps (29%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:15:22 2024]
+localrule roque_nublo:
+    input: metadata/metadatos_espacios.csv, ENP/monumento_natural/C-21_roque_nublo, python/enp_analysis.ipynb
+    output: html_enp/monumento_natural/C-21_roque_nublo.html
+    jobid: 21
+    reason: Missing output files: html_enp/monumento_natural/C-21_roque_nublo.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:15:25 2024]
+Finished job 21.
+3 of 7 steps (43%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:15:25 2024]
+localrule barranco_guayadeque:
+    input: metadata/metadatos_espacios.csv, ENP/monumento_natural/C-19_barranco_guayadeque, python/enp_analysis.ipynb
+    output: html_enp/monumento_natural/C-19_barranco_guayadeque.html
+    jobid: 19
+    reason: Missing output files: html_enp/monumento_natural/C-19_barranco_guayadeque.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:15:29 2024]
+Finished job 19.
+4 of 7 steps (57%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:15:29 2024]
+localrule tauro:
+    input: metadata/metadatos_espacios.csv, ENP/monumento_natural/C-17_tauro, python/enp_analysis.ipynb
+    output: html_enp/monumento_natural/C-17_tauro.html
+    jobid: 17
+    reason: Missing output files: html_enp/monumento_natural/C-17_tauro.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:15:32 2024]
+Finished job 17.
+5 of 7 steps (71%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:15:32 2024]
+localrule arinaga:
+    input: metadata/metadatos_espacios.csv, ENP/monumento_natural/C-18_arinaga, python/enp_analysis.ipynb
+    output: html_enp/monumento_natural/C-18_arinaga.html
+    jobid: 18
+    reason: Missing output files: html_enp/monumento_natural/C-18_arinaga.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:15:36 2024]
+Finished job 18.
+6 of 7 steps (86%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:15:36 2024]
+localrule targets:
+    input: html_enp/reserva_natural_integral/C-01_inagua.html, html_enp/reserva_natural_integral/C-02_barranco_oscuro.html, html_enp/reserva_natural_especial/C-03_el_brezal.html, html_enp/reserva_natural_especial/C-04_azuaje.html, html_enp/reserva_natural_especial/C-05_los_tilos_de_moya.html, html_enp/reserva_natural_especial/C-06_los_marteles.html, html_enp/reserva_natural_especial/C-07_las_dunas_de_maspalomas.html, html_enp/reserva_natural_especial/C-08_gui_gui.html, html_enp/parque_natural/C-09_tamadaba.html, html_enp/parque_natural/C-10_pilancones.html, html_enp/parque_rural/C-11_nublo.html, html_enp/parque_rural/C-12_doramas.html, html_enp/monumento_natural/C-13_amagro.html, html_enp/monumento_natural/C-14_bandama.html, html_enp/monumento_natural/C-15_montanion_negro.html, html_enp/monumento_natural/C-16_roque_aguayro.html, html_enp/monumento_natural/C-17_tauro.html, html_enp/monumento_natural/C-18_arinaga.html, html_enp/monumento_natural/C-19_barranco_guayadeque.html, html_enp/monumento_natural/C-20_riscos_tirajana.html, html_enp/monumento_natural/C-21_roque_nublo.html
+    jobid: 0
+    reason: Input files updated by another job: html_enp/monumento_natural/C-17_tauro.html, html_enp/monumento_natural/C-21_roque_nublo.html, html_enp/monumento_natural/C-16_roque_aguayro.html, html_enp/monumento_natural/C-18_arinaga.html, html_enp/monumento_natural/C-19_barranco_guayadeque.html, html_enp/monumento_natural/C-20_riscos_tirajana.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:15:36 2024]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: .snakemake/log/2024-12-26T141514.140769.snakemake.log

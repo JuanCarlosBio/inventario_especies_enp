@@ -1,0 +1,61 @@
+host: juancarlos-extensa21551g
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /home/juancarlos/miniconda3/envs/inventario_especies_gc/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                       count
+----------------------  -------
+barranco_del_draguillo        1
+jinamar                       1
+juncalillo_del_sur            1
+roque_de_gando                1
+targets                       1
+tufia                         1
+total                         6
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:45:41 2024]
+localrule jinamar:
+    input: metadata/metadatos_espacios.csv, ENP/sitio_de_interes_cientifico/C-29_jinamar, python/enp_analysis.ipynb
+    output: html_enp/sitio_de_interes_cientifico/C-29_jinamar.html
+    jobid: 28
+    reason: Missing output files: html_enp/sitio_de_interes_cientifico/C-29_jinamar.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:45:45 2024]
+Finished job 28.
+1 of 6 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:45:45 2024]
+localrule roque_de_gando:
+    input: metadata/metadatos_espacios.csv, ENP/sitio_de_interes_cientifico/C-31_roque_de_gando, python/enp_analysis.ipynb
+    output: html_enp/sitio_de_interes_cientifico/C-31_roque_de_gando.html
+    jobid: 30
+    reason: Missing output files: html_enp/sitio_de_interes_cientifico/C-31_roque_de_gando.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:45:48 2024]
+Error in rule roque_de_gando:
+    jobid: 30
+    input: metadata/metadatos_espacios.csv, ENP/sitio_de_interes_cientifico/C-31_roque_de_gando, python/enp_analysis.ipynb
+    output: html_enp/sitio_de_interes_cientifico/C-31_roque_de_gando.html
+    conda-env: /home/juancarlos/Documents/inventario_especies_enp/.snakemake/conda/d516146e133382adf3a39a33a833aa53_
+    shell:
+        
+        MY_VARIABLE=30 jupyter nbconvert             --to html             --execute             --no-input             python/enp_analysis.ipynb
+        mv python/enp_analysis.html html_enp/sitio_de_interes_cientifico/C-31_roque_de_gando.html
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-26T144540.451121.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

@@ -1,0 +1,43 @@
+host: juancarlos-extensa21551g
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /home/juancarlos/miniconda3/envs/inventario_especies_gc/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job                count
+---------------  -------
+barranco_oscuro        1
+targets                1
+total                  2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec 25 22:06:37 2024]
+localrule barranco_oscuro:
+    input: metadata/metadatos_espacios.csv, ENP/reserva_natural_integral/C-02_barranco_oscuro, python/enp_analysis.ipynb
+    output: html_enp/reserva_natural_integral/C-02_barranco_oscuro.html
+    jobid: 2
+    reason: Missing output files: html_enp/reserva_natural_integral/C-02_barranco_oscuro.html
+    resources: tmpdir=/tmp
+
+[Wed Dec 25 22:06:41 2024]
+Error in rule barranco_oscuro:
+    jobid: 2
+    input: metadata/metadatos_espacios.csv, ENP/reserva_natural_integral/C-02_barranco_oscuro, python/enp_analysis.ipynb
+    output: html_enp/reserva_natural_integral/C-02_barranco_oscuro.html
+    conda-env: /home/juancarlos/Documents/inventario_especies_enp/.snakemake/conda/d72b7e9852b501d84c0a77cdac50aa90_
+    shell:
+        
+        MY_VARIABLE=1 jupyter nbconvert             --to html             --execute             --no-input             python/enp_analysis.ipynb
+        mv python/enp_analysis.html html_enp/reserva_natural_integral/C-02_barranco_oscuro.html
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-12-25T220636.481165.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

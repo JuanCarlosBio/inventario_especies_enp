@@ -1,0 +1,102 @@
+host: juancarlos-extensa21551g
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however important for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /home/juancarlos/miniconda3/envs/inventario_especies_gc/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job            count
+-----------  -------
+amagro             1
+doramas            1
+enp_bandama        1
+nublo              1
+pilancones         1
+targets            1
+total              6
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:04:36 2024]
+localrule doramas:
+    input: metadata/metadatos_espacios.csv, ENP/parque_rural/C-12_doramas, python/enp_analysis.ipynb
+    output: html_enp/parque_rural/C-12_doramas.html
+    jobid: 12
+    reason: Missing output files: html_enp/parque_rural/C-12_doramas.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:04:39 2024]
+Finished job 12.
+1 of 6 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:04:39 2024]
+localrule nublo:
+    input: metadata/metadatos_espacios.csv, ENP/parque_rural/C-11_nublo, python/enp_analysis.ipynb
+    output: html_enp/parque_rural/C-11_nublo.html
+    jobid: 11
+    reason: Missing output files: html_enp/parque_rural/C-11_nublo.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:04:42 2024]
+Finished job 11.
+2 of 6 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:04:42 2024]
+localrule enp_bandama:
+    input: metadata/metadatos_espacios.csv, ENP/monumento_natural/C-15_montanion_negro, python/enp_analysis.ipynb
+    output: html_enp/monumento_natural/C-15_montanion_negro.html
+    jobid: 15
+    reason: Missing output files: html_enp/monumento_natural/C-15_montanion_negro.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:04:46 2024]
+Finished job 15.
+3 of 6 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:04:46 2024]
+localrule amagro:
+    input: metadata/metadatos_espacios.csv, ENP/monumento_natural/C-13_amagro, python/enp_analysis.ipynb
+    output: html_enp/monumento_natural/C-13_amagro.html
+    jobid: 13
+    reason: Missing output files: html_enp/monumento_natural/C-13_amagro.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:04:49 2024]
+Finished job 13.
+4 of 6 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:04:49 2024]
+localrule pilancones:
+    input: metadata/metadatos_espacios.csv, ENP/parque_natural/C-10_pilancones, python/enp_analysis.ipynb
+    output: html_enp/parque_natural/C-10_pilancones.html
+    jobid: 10
+    reason: Missing output files: html_enp/parque_natural/C-10_pilancones.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:04:53 2024]
+Finished job 10.
+5 of 6 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Thu Dec 26 14:04:53 2024]
+localrule targets:
+    input: html_enp/reserva_natural_integral/C-01_inagua.html, html_enp/reserva_natural_integral/C-02_barranco_oscuro.html, html_enp/reserva_natural_especial/C-03_el_brezal.html, html_enp/reserva_natural_especial/C-04_azuaje.html, html_enp/reserva_natural_especial/C-05_los_tilos_de_moya.html, html_enp/reserva_natural_especial/C-06_los_marteles.html, html_enp/reserva_natural_especial/C-07_las_dunas_de_maspalomas.html, html_enp/reserva_natural_especial/C-08_gui_gui.html, html_enp/parque_natural/C-09_tamadaba.html, html_enp/parque_natural/C-10_pilancones.html, html_enp/parque_rural/C-11_nublo.html, html_enp/parque_rural/C-12_doramas.html, html_enp/monumento_natural/C-13_amagro.html, html_enp/monumento_natural/C-14_bandama.html, html_enp/monumento_natural/C-15_montanion_negro.html
+    jobid: 0
+    reason: Input files updated by another job: html_enp/monumento_natural/C-15_montanion_negro.html, html_enp/parque_natural/C-10_pilancones.html, html_enp/monumento_natural/C-13_amagro.html, html_enp/parque_rural/C-12_doramas.html, html_enp/parque_rural/C-11_nublo.html
+    resources: tmpdir=/tmp
+
+[Thu Dec 26 14:04:53 2024]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: .snakemake/log/2024-12-26T140434.602645.snakemake.log

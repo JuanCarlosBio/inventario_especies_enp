@@ -1,0 +1,34 @@
+id,nombre,sourcename,categoria,logo
+C-01,Inagua,C-01_inagua,Reserva Natural Integral,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/RNI.jpg
+C-02,Barranco Oscuro,C-02_barranco_oscuro,Reserva Natural Integral,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/RNI.jpg
+C-03,El Brezal,C-03_el_brezal,Reserva Natural Especial,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/RNE.jpg
+C-04,Azuaje,C-04_azuaje,Reserva Natural Especial,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/RNE.jpg
+C-05,Los Tilos de Moya,C-05_los_tilos_de_moya,Reserva Natural Especial,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/RNE.jpg
+C-06,Los Marteles,C-06_los_marteles,Reserva Natural Especial,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/RNE.jpg
+C-07,Las Dunas de Maspalomas,C-07_las_dunas_de_maspalomas,Reserva Natural Especial,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/RNE.jpg
+C-08,Güígüí,C-08_gui_gui,Reserva Natural Especial,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/RNE.jpg
+C-09,Tamadaba,C-09_tamadaba,Parque Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/PN.jpg
+C-10,Pilancones,C-10_pilancones,Parque Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/PN.jpg
+C-11,Nublo,C-11_nublo,Parque Rural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/PR.jpg
+C-12,Doramas,C-12_doramas,Parque Rural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/PR.jpg
+C-13,Amagro,C-13_amagro,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-14,Bandama,C-14_bandama,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-15,Montañón Negro,C-15_montanion_negro,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-16,Roque Aguayro,C-16_roque_aguayro,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-17,Tauro,C-17_tauro,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-18,Arinaga,C-18_arinaga,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-19,Barranco de Guayadeque,C-19_barranco_guayadeque,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-20,Riscos de Tirajana,C-20_riscos_tirajana,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-21,Roque Nublo,C-21_roque_nublo,Monumento Natural,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/MN.jpg
+C-22,La Isleta,C-22_la_isleta,Paisaje Protegido,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/Pp.jpg
+C-23,Pino Santo,C-23_pino_santo,Paisaje Protegido,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/Pp.jpg
+C-24,Tafira,C-24_tafira,Paisaje Protegido,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/Pp.jpg
+C-25,Las Cumbres,C-25_las_cumbres,Paisaje Protegido,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/Pp.jpg
+C-26,Lomo Magullo,C-26_lomo_magullo,Paisaje Protegido,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/Pp.jpg
+C-27,Fataga,C-27_fataga,Paisaje Protegido,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/Pp.jpg
+C-28,Montaña de Agüimes,C-28_montania_de_aguimes,Paisaje Protegido,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/Pp.jpg
+C-29,Jinámar,C-29_jinamar,Sitio de Interés Científico,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/SIC.jpg
+C-30,Tufia,C-30_tufia,Sitio de Interés Científico,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/SIC.jpg
+C-31,Roque de Gando,C-31_roque_de_gando,Sitio de Interés Científico,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/SIC.jpg
+C-32,Juncalillo del Sur,C-32_juncalillo_del_sur,Sitio de Interés Científico,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/SIC.jpg
+C-33,Barranco del Draguillo,C-33_barranco_del_draguillo,Sitio de Interés Científico,https://www.gobiernodecanarias.org/cmsgob1/export/sites/planificacionterritorial/galeria/imagenes_enp/SIC.jpg

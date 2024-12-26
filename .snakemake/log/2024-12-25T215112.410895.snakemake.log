@@ -1,0 +1,7 @@
+host: juancarlos-extensa21551g
+Building DAG of jobs...
+MissingInputException in rule enp_bandama in file /home/juancarlos/Documents/inventario_especies_enp/Snakefile, line 5:
+Missing input files for rule enp_bandama:
+    output: html_enp/monumento_natural/C-14_bandama.html
+    affected files:
+        python/enp_analysis.ipynb
