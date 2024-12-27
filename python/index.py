@@ -77,5 +77,5 @@ with open('index.html', 'w') as f:
 
     
     f.write("<footer style='text-align: left; margin-top: 20px; font-size: small; color: gray;'>")
-    f.write("   <p>Sitio desarrollado por <a href='https://juancarlosbio.github.io/juancarlos_portfolio_esp/'>Juan Carlos García Estupiñán</a></p>")
+    f.write("   <p>Sitio <a href='https://github.com/JuanCarlosBio/inventario_especies_enp'>desarrollado</a> por <a href='https://juancarlosbio.github.io/juancarlos_portfolio_esp/'>Juan Carlos García Estupiñán</a> mediante la MIT LICENSE</p>")
     f.write("</footer>")

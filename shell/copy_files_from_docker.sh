@@ -12,9 +12,8 @@ sourcename_files=$(cat metadata/metadatos_espacios.csv | \
     tr "[:upper:]" "[:lower:]" | \
     sed 's/\,c\-/\/C\-/' | \
     sed 'y/áéíóúñ/aeioun/') 
-
-# echo $sorcename_files | sed 's/\/C-[0-9]\{2\}[^ ]*//g' 
-
+ 
+ 
 for file in $(echo $sourcename_files);do
 
     path_local=$(echo "$file" | \
