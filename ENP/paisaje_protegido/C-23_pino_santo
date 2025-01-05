@@ -1,38 +1,43 @@
 "id_biota","especie","nombre_comun","endemicidad","reino","group_count"
-"F00594","Teline microphylla (DC.) P. E. Gibbs & Dingwall","Retama amarilla","Endémico","Plantae",1
-"F01188","Echium plantagineum L.","Palomina, zuaja, lengua oveja, viborina","No endémico","Plantae",1
-"F01268","Plantago arborescens Poir. subsp. arborescens","Pinillo común","Endémico","Plantae",1
-"F00759","Euphorbia aphylla Brouss. ex Willd.","Tolda, tabaiba salvaje","Endémico","Plantae",1
-"F00479","Limonium tuberculatum (Boiss.) Kuntze","Siempreviva espinocha, espinocho","No endémico","Plantae",2
-"F00766","Euphorbia canariensis L.","Cardón","Endémico","Plantae",1
-"F00585","Retama rhodorhizoides Webb & Berthel.","Retama blanca canaria, retama de costa, retama","Endémico","Plantae",2
-"F00055","Davallia canariensis (L.) Sm.","Helecho batatilla, helechillo, cochinilla, rabo de cochino","No endémico","Plantae",3
-"F00068","Pinus canariensis C. Sm. & DC.","Pino canario","Endémico","Plantae",1
-"F01058","Olea cerasiformis Rivas-Mart. & del Arco","Acebuche, olivo salvaje","Endémico","Plantae",1
-"F01781","Asparagus pastorianus Webb & Berthel.","Esparraguera espinablanca, Espina blanca","No endémico","Plantae",1
-"F01380","Juniperus turbinata Guss. subsp. canariensis (Guyot & Mathou) Rivas Mart., Wildpret & P.Pérez","Sabina canaria","No endémico","Plantae",1
-"F00251","Atriplex semibaccata R. Br.","Amuelle de fruto rojo, saladillo, saladillo pardo","No endémico","Plantae",1
-"F01004","Lavatera acerifolia Cav.","Malvarrisco rosada","Endémico","Plantae",3
-"F01037","Viburnum rugosum Pers.","Follado canario, Follao","Endémico","Plantae",1
-"F00697","Neochamaelea pulverulenta (Vent.) Erdtman","Orijama, leña buena, leña santa, leña blanca, orijama","Endémico","Plantae",1
-"F01418","Allagopappus canariensis (Willd.) Greuter","Madama de risco, mato risco","Endémico","Plantae",1
-"F02227","Euphorbia balsamifera Aiton","Tabaiba dulce","No endémico","Plantae",1
-"F00434","Bencomia caudata (Aiton) Webb & Berthel.","Bencomia de monte, zumaquero","Endémico","Plantae",3
-"F01648","Schizogyne sericea (L. f.) DC.","Salado blanco, dama","No endémico","Plantae",1
-"F01428","Artemisia thuscula Cav.","Incienso canario, incienso morisco, abrotano, incensio","Endémico","Plantae",5
-"F02316","Parolinia glabriuscula Montelongo & Bramwell","Dama de Bandama","Endémico","Plantae",1
-"F01782","Asparagus plocamoides Webb ex Svent.","Esparragón colgante","Endémico","Plantae",1
-"F02187","Asparagus umbellatus Link","NA","No endémico","Plantae",1
-"F02356","Juniperus cedrus Webb & Berthel.","NA","No endémico","Plantae",1
-"F00295","Rumex lunaria L.","Vinagrera, calcosa","Endémico","Plantae",1
-"F00366","Aeonium percarneum (R. P. Murray) Pit. & Proust.","Bejeque rosado","Endémico","Plantae",3
-"F01392","Euphorbia regis-jubae Webb & Berthel","Tabaiba amarga, Tabaiba salvaje, higuerilla","No endémico","Plantae",2
-"F00347","Aeonium arboreum (L.) Webb & Berthel. subsp. arboreum","Bejeque, pastelera, pastel de risco","Endémico","Plantae",1
-"F00102","Bosea yervamora L.","Yerbamora, hediondo, findiongo","Endémico","Plantae",2
-"E09113","Lavandula canariensis Mill.","Matorrisco común, hierba risco, chivera, lavanda","Endémico","Plantae",1
-"F01578","Kleinia neriifolia Haw.","Verode, verol","Endémico","Plantae",3
-"F02221","Echium decaisnei Webb & Berthel.","NA","Endémico","Plantae",1
-"F01864","Phoenix canariensis H. Wildpret","Palmera canaria, palma","Endémico","Plantae",1
-"F01574","Sonchus leptocephalus Cassagnau, 0","balillo alpispillo,alpípere","Endémico","Plantae",1
-"F01627","Pericallis webbii (Sch. Bip.) Bolle","Flor de mayo","Endémico","Plantae",2
-"F01214","Cymbalaria muralis G. Gaertn., B. Mey. & Scherb.","Flor de muralla, palomilla de muro","No endémico","Plantae",1
+"F00594","Teline microphylla (DC.) P. E. Gibbs & Dingwall","Retama amarilla","Endémico","Plantae","1"
+"F01188","Echium plantagineum L.","Palomina, zuaja, lengua oveja, viborina","No endémico","Plantae","1"
+"F01268","Plantago arborescens Poir. subsp. arborescens","Pinillo común","Endémico","Plantae","1"
+"F00759","Euphorbia aphylla Brouss. ex Willd.","Tolda, tabaiba salvaje","Endémico","Plantae","1"
+"F00479","Limonium tuberculatum (Boiss.) Kuntze","Siempreviva espinocha, espinocho","No endémico","Plantae","2"
+"F00766","Euphorbia canariensis L.","Cardón","Endémico","Plantae","1"
+"F00585","Retama rhodorhizoides Webb & Berthel.","Retama blanca canaria, retama de costa, retama","Endémico","Plantae","2"
+"F00055","Davallia canariensis (L.) Sm.","Helecho batatilla, helechillo, cochinilla, rabo de cochino","No endémico","Plantae","4"
+"F00068","Pinus canariensis C. Sm. & DC.","Pino canario","Endémico","Plantae","2"
+"F01058","Olea cerasiformis Rivas-Mart. & del Arco","Acebuche, olivo salvaje","Endémico","Plantae","1"
+"F01781","Asparagus pastorianus Webb & Berthel.","Esparraguera espinablanca, Espina blanca","No endémico","Plantae","1"
+"F01380","Juniperus turbinata Guss. subsp. canariensis (Guyot & Mathou) Rivas Mart., Wildpret & P.Pérez","Sabina canaria","No endémico","Plantae","1"
+"F00251","Atriplex semibaccata R. Br.","Amuelle de fruto rojo, saladillo, saladillo pardo","No endémico","Plantae","1"
+"F01004","Lavatera acerifolia Cav.","Malvarrisco rosada","Endémico","Plantae","3"
+"F01037","Viburnum rugosum Pers.","Follado canario, Follao","Endémico","Plantae","1"
+"F00697","Neochamaelea pulverulenta (Vent.) Erdtman","Orijama, leña buena, leña santa, leña blanca, orijama","Endémico","Plantae","1"
+"F01418","Allagopappus canariensis (Willd.) Greuter","Madama de risco, mato risco","Endémico","Plantae","1"
+"F02227","Euphorbia balsamifera Aiton","Tabaiba dulce","No endémico","Plantae","1"
+"F00434","Bencomia caudata (Aiton) Webb & Berthel.","Bencomia de monte, zumaquero","Endémico","Plantae","3"
+"F01648","Schizogyne sericea (L. f.) DC.","Salado blanco, dama","No endémico","Plantae","1"
+"F01683","Sonchus hierrensis (Pit.) Boulos","Cerrajón herreño","Endémico","Plantae","1"
+"F01428","Artemisia thuscula Cav.","Incienso canario, incienso morisco, abrotano, incensio","Endémico","Plantae","5"
+"F02316","Parolinia glabriuscula Montelongo & Bramwell","Dama de Bandama","Endémico","Plantae","1"
+"F01782","Asparagus plocamoides Webb ex Svent.","Esparragón colgante","Endémico","Plantae","2"
+"F02187","Asparagus umbellatus Link","NA","No endémico","Plantae","1"
+"F02356","Juniperus cedrus Webb & Berthel.","NA","No endémico","Plantae","1"
+"F00856","Hypericum canariense L.","Granadillo canario, granadilla, grenadilla","No endémico","Plantae","1"
+"F00366","Aeonium percarneum (R. P. Murray) Pit. & Proust.","Bejeque rosado","Endémico","Plantae","4"
+"F00692","Pistacia atlantica Desf.","Almácigo","No endémico","Plantae","1"
+"F02083","Lobularia canariensis (DC.) L. Borgen","Pan y queso, mastuerzo, hierba de pájaros","No endémico","Plantae","1"
+"F00352","Rubia fruticosa Aiton","Tasaigo, raspadera, ruidera, galguitero","No endémico","Plantae","1"
+"F00295","Rumex lunaria L.","Vinagrera, calcosa","Endémico","Plantae","1"
+"F01392","Euphorbia regis-jubae Webb & Berthel","Tabaiba amarga, Tabaiba salvaje, higuerilla","No endémico","Plantae","2"
+"F00347","Aeonium arboreum (L.) Webb & Berthel. subsp. arboreum","Bejeque, pastelera, pastel de risco","Endémico","Plantae","1"
+"F00102","Bosea yervamora L.","Yerbamora, hediondo, findiongo","Endémico","Plantae","2"
+"E09113","Lavandula canariensis Mill.","Matorrisco común, hierba risco, chivera, lavanda","Endémico","Plantae","1"
+"F01578","Kleinia neriifolia Haw.","Verode, verol","Endémico","Plantae","3"
+"F02221","Echium decaisnei Webb & Berthel.","NA","Endémico","Plantae","1"
+"F01864","Phoenix canariensis H. Wildpret","Palmera canaria, palma","Endémico","Plantae","1"
+"F01574","Sonchus leptocephalus Cassagnau","balillo alpispillo,alpípere","Endémico","Plantae","1"
+"F01627","Pericallis webbii (Sch. Bip.) Bolle","Flor de mayo","Endémico","Plantae","2"
+"F01214","Cymbalaria muralis G. Gaertn., B. Mey. & Scherb.","Flor de muralla, palomilla de muro","No endémico","Plantae","1"
