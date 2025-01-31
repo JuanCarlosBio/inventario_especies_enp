@@ -1,20 +1,35 @@
 "id_biota","especie","nombre_comun","endemicidad","reino","group_count"
-"A04925","Nezara viridula (Linnaeus, 1758)","Beata verde","No endémico","Metazoa",1
-"A00039","Crocothemis erythraea (Brullé, 1839)","NA","No endémico","Metazoa",1
-"A05409","Argiope trifasciata (Forsskål, 1775)","Araña tigre común","No endémico","Metazoa",1
-"F00530","Lotus kunkelii (Esteve) Bramwell & D. H. Davis","Yerbamuda de Jinámar, hierbamuda, cuernecillo de costa","Endémico","Plantae",3
-"F00084","Mesembryanthemum nodiflorum L.","Cosco, barrilla, bastoncil","No endémico","Plantae",1
-"F02407","Suaeda vermiculata Forssk. ex J. F. Gmel.","NA","No endémico","Plantae",1
-"F00281","Traganum moquinii Webb ex Moq.","Balancón","No endémico","Plantae",4
-"F01021","Lysimachia arvensis (L.) U. Manns & Anderb.","Muraje común, hierba del cielo, peralillo, tarrillo","No endémico","Plantae",1
-"F00815","Astydamia latifolia (L. f.) Baill.","Lechuga de mar, servilleta","No endémico","Plantae",2
-"F00826","Crithmum maritimum L.","Perejil de mar, hinojo de mar","No endémico","Plantae",1
-"F00715","Tetraena fontanesii (Webb & Berthel.) Beier & Thulin","Uva de mar común, Salado moro, Babosa","No endémico","Plantae",5
-"F00895","Tamarix canariensis Willd.","Tarajal canario","No endémico","Plantae",2
-"F02221","Echium decaisnei Webb & Berthel.","NA","Endémico","Plantae",1
-"F02227","Euphorbia balsamifera Aiton","Tabaiba dulce","No endémico","Plantae",2
-"F01648","Schizogyne sericea (L. f.) DC.","Salado blanco, dama","No endémico","Plantae",1
-"F00279","Suaeda vera Forssk. ex J. F. Gmel.","Matomoro común","No endémico","Plantae",1
-"F00899","Frankenia capitata Webb & Berthel.","Tomillo marino pardo, tomillo de mar, sapera","No endémico","Plantae",1
-"F00257","Bassia tomentosa (Lowe) Maire & Weiller","Algahuera, salado lanudo, algauera","No endémico","Plantae",1
-"F01578","Kleinia neriifolia Haw.","Verode, verol","Endémico","Plantae",1
+"A04925","Nezara viridula (Linnaeus, 1758)","Beata verde","No endémico","Metazoa","1"
+"A00039","Crocothemis erythraea (Brullé, 1839)","NA","No endémico","Metazoa","1"
+"A05409","Argiope trifasciata (Forsskål, 1775)","Araña tigre común","No endémico","Metazoa","1"
+"F00530","Lotus kunkelii (Esteve) Bramwell & D. H. Davis","Yerbamuda de Jinámar, hierbamuda, cuernecillo de costa","Endémico","Plantae","3"
+"F00084","Mesembryanthemum nodiflorum L.","Cosco, barrilla, bastoncil","No endémico","Plantae","1"
+"F02407","Suaeda vermiculata Forssk. ex J. F. Gmel.","NA","No endémico","Plantae","3"
+"F00281","Traganum moquinii Webb ex Moq.","Balancón","No endémico","Plantae","4"
+"F01021","Lysimachia arvensis (L.) U. Manns & Anderb.","Muraje común, hierba del cielo, peralillo, tarrillo","No endémico","Plantae","1"
+"F00815","Astydamia latifolia (L. f.) Baill.","Lechuga de mar, servilleta","No endémico","Plantae","2"
+"F00826","Crithmum maritimum L.","Perejil de mar, hinojo de mar","No endémico","Plantae","1"
+"F00715","Tetraena fontanesii (Webb & Berthel.) Beier & Thulin","Uva de mar común, Salado moro, Babosa","No endémico","Plantae","6"
+"F00895","Tamarix canariensis Willd.","Tarajal canario","No endémico","Plantae","2"
+"F02221","Echium decaisnei Webb & Berthel.","NA","Endémico","Plantae","1"
+"F02227","Euphorbia balsamifera Aiton","Tabaiba dulce","No endémico","Plantae","2"
+"F01648","Schizogyne sericea (L. f.) DC.","Salado blanco, dama","No endémico","Plantae","1"
+"F00279","Suaeda vera Forssk. ex J. F. Gmel.","Matomoro común","No endémico","Plantae","1"
+"F00899","Frankenia capitata Webb & Berthel.","Tomillo marino pardo, tomillo de mar, sapera","No endémico","Plantae","1"
+"F00257","Bassia tomentosa (Lowe) Maire & Weiller","Algahuera, salado lanudo, algauera","No endémico","Plantae","1"
+"F00782","Euphorbia paralias L.","Lechetrezna de playa, lechetrezna de la mar, lecheruela","No endémico","Plantae","1"
+"F00311","Limonium pectinatum (Aiton) Kuntze","Siempreviva de mar","No endémico","Plantae","1"
+"F01584","Launaea arborescens (Batt.) Murb.","Ahulaga, aulaga, julaga","No endémico","Plantae","1"
+"F02121","Limoniastrum monopetalum (L.) Boiss.","Salitrosa","No endémico","Plantae","1"
+"F00076","Aizoon canariense L.","Pata perro, patilla","No endémico","Plantae","2"
+"F01107","Nicotiana glauca Graham","Tabaco moruno, aciculito, alenturero, gandul, bobo, venenero, tabaco moro, mimo, hediondo, tabaco moruno, calenturero, Mustard tree, tree tobacco","No endémico","Plantae","1"
+"F00269","Patellifolia patellaris (Moq.) A. J. Scott, Ford-Lloyd & J. T. Williams","Tebete común, acelga de mar, mormahaya, pinocha","No endémico","Plantae","2"
+"F02087","Argyranthemum frutescens (L.) Sch. Bip.","Magarza, margarita","Endémico","Plantae","1"
+"F01893","Arundo donax L.","Caña, cañavera, bardiza, caña silvestre, caña común, giant reed","No endémico","Plantae","1"
+"F00251","Atriplex semibaccata R. Br.","Amuelle de fruto rojo, saladillo, saladillo pardo","No endémico","Plantae","1"
+"F01587","Launaea nudicaulis (L.) Hook. f.","Aulaguilla, cerraja dulce, cerraja vieja","No endémico","Plantae","1"
+"F00083","Mesembryanthemum crystallinum L.","Barrilla, escarchosa, escarcha","No endémico","Plantae","1"
+"F01381","Atriplex glauca L. subsp. ifniensis (Caball.) Rivas-Mart. & al.","Amuelle salado, saladillo, marisma","No endémico","Plantae","1"
+"F00713","Fagonia cretica L.","Rasapaya, espinocillo, hierba picona","No endémico","Plantae","1"
+"F00336","Forsskaolea angustifolia Retz.","Ratonera picona, hierba ratonera, ratonera","Endémico","Plantae","1"
+"F01578","Kleinia neriifolia Haw.","Verode, verol","Endémico","Plantae","1"

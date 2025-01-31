@@ -1,31 +1,22 @@
 "id_biota","especie","nombre_comun","endemicidad","reino","group_count"
-"A04430","Hipparchia tamadabae Owen & Smith, 1992","Mariposa sátiro de Gran Canaria","Endémico","Metazoa",1
-"A00510","Camponotus feae Emery, 1882","Hormigón de tabaibas.","Endémico","Metazoa",1
-"A03064","Psilothrix viridicoerulea (Geoffroy, 1785)","Escarabajo barquilla verde","No endémico","Metazoa",1
-"A03322","Oxythyrea funesta Poda, 1761","NA","No endémico","Metazoa",1
-"A04919","Graphosoma interruptum Buchanan-White, 1839","Chinche pijama","Endémico","Metazoa",1
-"F01307","Lavandula dentata L.","Alhucema rizada","No endémico","Plantae",6
-"F01176","Echium callithyrsum Webb ex Bolle","Taginaste azul de Gran Canaria","Endémico","Plantae",1
-"F00986","Reseda luteola L.","Gualda","No endémico","Plantae",1
-"F01188","Echium plantagineum L.","Palomina, zuaja, lengua oveja, viborina","No endémico","Plantae",3
-"F00594","Teline microphylla (DC.) P. E. Gibbs & Dingwall","Retama amarilla","Endémico","Plantae",23
-"F02222","Echium onosmifolium Webb & Berthel.","NA","Endémico","Plantae",2
-"F00366","Aeonium percarneum (R. P. Murray) Pit. & Proust.","Bejeque rosado","Endémico","Plantae",3
-"F00371","Aeonium simsii (Sweet) Stearn","Góngaro flor de piedra","Endémico","Plantae",1
-"F01164","Anchusa azurea Mill.","Alicaneja, abremanos, lenguaza","No endémico","Plantae",1
-"F01669","Silybum marianum (L.) Gaertn.","Cardo mariano, cardo lechal","No endémico","Plantae",1
-"F01218","Digitalis isabelliana (Webb) Linding","Crestagallo de pinar","Endémico","Plantae",1
-"F01392","Euphorbia regis-jubae Webb & Berthel","Tabaiba amarga, Tabaiba salvaje, higuerilla","No endémico","Plantae",5
-"F02221","Echium decaisnei Webb & Berthel.","NA","Endémico","Plantae",2
-"F01380","Juniperus turbinata Guss. subsp. canariensis (Guyot & Mathou) Rivas Mart., Wildpret & P.Pérez","Sabina canaria","No endémico","Plantae",1
-"F00295","Rumex lunaria L.","Vinagrera, calcosa","Endémico","Plantae",1
-"F01578","Kleinia neriifolia Haw.","Verode, verol","Endémico","Plantae",3
-"F01330","Salvia canariensis L.","Salvia canaria, salvia morisca, garitopa","Endémico","Plantae",16
-"F01388","Athamanta montana (Webb ex H. Christ) Spalik, A. Wojew & S.R. Downie","Cañaheja blanca","Endémico","Plantae",1
-"F00939","Erysimum virescens (Webb ex Christ) Wettst.","Alhelí de medianía, alhelí montuno","Endémico","Plantae",5
-"F00962","Agave americana L.","Pitera común, pita, century plant","No endémico","Plantae",1
-"F01198","Echium wildpretii Hook. f.","Taginaste rojo, orgullo de Tenerife","Endémico","Plantae",2
-"F00429","Umbilicus gaditanus Boiss.","Sombrerillo común, ombligo de Venus, papa, paragüilla, chislate","No endémico","Plantae",3
-"E09113","Lavandula canariensis Mill.","Matorrisco común, hierba risco, chivera, lavanda","Endémico","Plantae",1
-"F00475","Adenocarpus foliolosus (Aiton) DC.","Codeso de monte","Endémico","Plantae",6
-"F01428","Artemisia thuscula Cav.","Incienso canario, incienso morisco, abrotano, incensio","Endémico","Plantae",1
+"A03064","Psilothrix viridicoerulea (Geoffroy, 1785)","Escarabajo barquilla verde","No endémico","Metazoa","1"
+"A03322","Oxythyrea funesta Poda, 1761","NA","No endémico","Metazoa","1"
+"A04919","Graphosoma interruptum Buchanan-White, 1839","Chinche pijama","Endémico","Metazoa","1"
+"F01307","Lavandula dentata L.","Alhucema rizada","No endémico","Plantae","6"
+"F01176","Echium callithyrsum Webb ex Bolle","Taginaste azul de Gran Canaria","Endémico","Plantae","1"
+"F00366","Aeonium percarneum (R. P. Murray) Pit. & Proust.","Bejeque rosado","Endémico","Plantae","3"
+"F01164","Anchusa azurea Mill.","Alicaneja, abremanos, lenguaza","No endémico","Plantae","1"
+"F01669","Silybum marianum (L.) Gaertn.","Cardo mariano, cardo lechal","No endémico","Plantae","1"
+"F01218","Digitalis isabelliana (Webb) Linding","Crestagallo de pinar","Endémico","Plantae","1"
+"F01392","Euphorbia regis-jubae Webb & Berthel","Tabaiba amarga, Tabaiba salvaje, higuerilla","No endémico","Plantae","2"
+"F02221","Echium decaisnei Webb & Berthel.","NA","Endémico","Plantae","2"
+"F01049","Pterocephalus dumetorus (Brouss. ex Willd.) Coult.","Rosalito salvaje","Endémico","Plantae","1"
+"F01330","Salvia canariensis L.","Salvia canaria, salvia morisca, garitopa","Endémico","Plantae","16"
+"F00594","Teline microphylla (DC.) P. E. Gibbs & Dingwall","Retama amarilla","Endémico","Plantae","22"
+"F01388","Athamanta montana (Webb ex H. Christ) Spalik, A. Wojew & S.R. Downie","Cañaheja blanca","Endémico","Plantae","1"
+"F00939","Erysimum virescens (Webb ex Christ) Wettst.","Alhelí de medianía, alhelí montuno","Endémico","Plantae","5"
+"F01188","Echium plantagineum L.","Palomina, zuaja, lengua oveja, viborina","No endémico","Plantae","2"
+"F00962","Agave americana L.","Pitera común, pita, century plant","No endémico","Plantae","1"
+"F01198","Echium wildpretii Hook. f.","Taginaste rojo, orgullo de Tenerife","Endémico","Plantae","2"
+"F00475","Adenocarpus foliolosus (Aiton) DC.","Codeso de monte","Endémico","Plantae","6"
+"F01428","Artemisia thuscula Cav.","Incienso canario, incienso morisco, abrotano, incensio","Endémico","Plantae","1"
